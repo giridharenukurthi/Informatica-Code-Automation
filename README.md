@@ -4,3 +4,4 @@ Informatica Code Automation
 29/June Added the proposed automated design for Code automation
 Discussion with Rajesh about the data types syncronization
 Discussed with henry on MF DB2 automations of the data types
+Finalized the list of datatype in DB2
