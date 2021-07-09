@@ -418,4 +418,4 @@ $$ZIP_SERVICE_RANGE_FILTER=TRUE
 $AppConnectionSource=CDC_SEFS_O_PROD
 $AppConnectionTarget=FDFR_CDC_DW_PROD_05
 $AppConnectionJNDI=JNDI_FXF
-$ParamTargetSchema=PROD
+$ParamTargetSchema=PROD 
