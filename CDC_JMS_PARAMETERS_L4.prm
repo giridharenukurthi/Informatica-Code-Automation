@@ -3,7 +3,7 @@ Process Start Time : 05/25/2021 14:17:13
 Updated User  : 3917089
 -----------------------------------------------------------------------------------------------------------------------------
 
-[s_mpg_DB2ZOS_TO_JMS_GROUP1_L4]
+[s_mpg_DB2ZOS_TO_JMS_GROUP1_L4] 
 $PWXExtractMapBROKER_CONTACT=d1dsn.bc_BROKER_CONTACT
 $PWXExtractMapBROKER_CUST_XREF=d1dsn.bcx_BROKER_CUST_XREF
 $PWXExtractMapBROKER_NOTE=d1dsn.bn_BROKER_NOTE
