@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------
-Process Start Time : 05/25/2021 14:17:13
+Process End Time : 07/23/2021 04:2517:04
 Updated User  : 3917089
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -426,9 +426,56 @@ $AppConnectionTarget=FDFR_CDC_DW_L1
 $AppConnectionJNDI=JNDI_FXF
 $ParamTargetSchema=DB2FFU
 
+[s_mpg_DB2ZOS_TO_JMS_GROUP3_L1]
+$PWXExtractMapCA_IL_PAYABLES=d1dsnb.cip0_CA_IL_PAYABLES
+$PWXExtractMapFUEL_PRICE_INDEX=d1dsnb.fpi0_FUEL_PRICE_INDEX
+$PWXExtractMapMCMTB008=d1dsnb.mt0080_MCMTB008
+$PWXExtractMapMCMTB026=d1dsnb.mt0260_MCMTB026
+$PWXExtractMapMCMTB028=d1dsnb.mt0280_MCMTB028
+$PWXExtractMapMCMTB031=d1dsnb.mt0310_MCMTB031
+$PWXExtractMapMCMTB054=d1dsnb.mt0540_MCMTB054
+$PWXExtractMapMONTHLY_LANE_SRVC=d1dsnb.mls0_MONTHLY_LANE_SRVC
+$PWXExtractMapOSD_INV_INCIDENT=d1dsnb.oii0_OSD_INV_INCIDENT
+$PWXExtractMapOSD_ITEM=d1dsnb.osi0_OSD_ITEM
+$PWXExtractMapPARS_SHIPMENT=d1dsnb.ps0_PARS_SHIPMENT
+$PWXExtractMapPURCHASED_BROKER=d1dsnb.pb0_PURCHASED_BROKER
+$PWXExtractMapPURCHASED_REG_LEG=d1dsnb.prleg0_PURCHASED_REG_LEG
+$PWXExtractMapPURCHASED_REG_LOAD=d1dsnb.prl0_PURCHASED_REG_LOAD
+$PWXExtractMapPURCHASED_REG_TRLR=d1dsnb.prt0_PURCHASED_REG_TRLR
+$PWXExtractMapRATEQUOTE_ITEM=d1dsnb.ritem0_RATEQUOTE_ITEM
+$PWXExtractMapRENTAL_AUDIT=d1dsnb.ra0_RENTAL_AUDIT
+$PWXExtractMapRENTAL_REQUEST=d1dsnb.rr0_RENTAL_REQUEST
+$PWXExtractMapROUTE_ZIP=d1dsnb.rtz0_ROUTE_ZIP
+$PWXExtractMapSHIPMENT_ROUTE=d1dsnb.sr0_SHIPMENT_ROUTE
+$PWXExtractMapSHP_ABSOLUTE=d1dsnb.sab0_SHP_ABSOLUTE
+$$CA_IL_PAYABLES_FILTER=DTL__CAPXACTION<>'D'
+$$FUEL_PRICE_INDEX_FILTER=TRUE
+$$MCMTB008_FILTER=TRUE
+$$MCMTB026_FILTER=TRUE
+$$MCMTB028_FILTER=TRUE
+$$MCMTB031_FILTER=TRUE
+$$MCMTB054_FILTER=TRUE
+$$MONTHLY_LANE_SRVC_FILTER=TRUE
+$$OSD_INV_INCIDENT_FILTER=DTL__CAPXACTION<>'D'
+$$OSD_ITEM_FILTER=DTL__CAPXACTION<>'D'
+$$PARS_SHIPMENT_FILTER=DTL__CAPXACTION<>'D'
+$$PURCHASED_BROKER_FILTER=TRUE
+$$PURCHASED_REG_LEG_FILTER=TRUE
+$$PURCHASED_REG_LOAD_FILTER=TRUE
+$$PURCHASED_REG_TRLR_FILTER=TRUE
+$$RATEQUOTE_ITEM_FILTER=TRUE
+$$RENTAL_AUDIT_FILTER=TRUE
+$$RENTAL_REQUEST_FILTER=TRUE
+$$ROUTE_ZIP_FILTER=TRUE
+$$SHIPMENT_ROUTE_FILTER=DTL__CAPXACTION<>'D'
+$$SHP_ABSOLUTE_FILTER=DTL__CAPXACTION<>'D'
+$AppConnectionSource=CDC_SEFS_O_L1
+$AppConnectionTarget=FDFR_CDC_DW_L1
+$AppConnectionJNDI=JNDI_FXF
+$ParamTargetSchema=DB2FFU
 -----------------------------------------------------------------------------------------------------------------------------
-Process End Time : 05/25/2021 14:17:14
+Process End Time : 07/23/2021 04:2517:04
 Updated User  : 3917089
-Total Processed Groups : 13    
+Total Processed Groups : 14    
 -----------------------------------------------------------------------------------------------------------------------------
 
