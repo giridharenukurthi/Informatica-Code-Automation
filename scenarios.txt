@@ -1,0 +1,5 @@
+Test Scenarion of Incremental/Full Load with new or existing tables of restart tokens
+
+check Prod Bridging rules
+
+Check whenther Prod data can be extracted with L6 job?
