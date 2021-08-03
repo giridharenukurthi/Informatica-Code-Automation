@@ -6,3 +6,4 @@ Discussion with Rajesh about the data types syncronization
 Discussed with henry on MF DB2 automations of the data types
 Finalized the list of datatype in DB2
 Fixes for automation is concluded with the team  
+Development os completed for Code Automation
