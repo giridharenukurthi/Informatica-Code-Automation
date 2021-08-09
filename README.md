@@ -7,3 +7,4 @@ Discussed with henry on MF DB2 automations of the data types
 Finalized the list of datatype in DB2
 Fixes for automation is concluded with the team  
 Development os completed for Code Automation
+Involved naresh into the team to oversee the data typy consistency issues
