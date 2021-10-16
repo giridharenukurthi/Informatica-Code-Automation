@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------
-Process Start Time : 08/24/2021 15:16:12  
+Process Start Time : 10/17/2021 11:25:23  
 Updated User  : 3917089
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -182,7 +182,7 @@ $$OSD_REF_FRT_DTL_FILTER=DTL__CAPXACTION<>'D'
 $$OSD_SLC_SPOT_CHGRQ_FILTER=DTL__CAPXACTION<>'D'
 $$OSD_SLC_SPOT_CMT_FILTER=DTL__CAPXACTION<>'D'
 $$SECURITY_USERID_FILTER=TRUE
-$$SHP_QUOTE_COMMENTS_FILTER=DTL__CAPXACTION<>'D'
+$$SHP_QUOTE_COMMENTS_FILTER=TRUE
 $AppConnectionSource=CDC_SEFS_O_L2
 $AppConnectionTarget=FDFR_CDC_DW_L2
 $AppConnectionJNDI=JNDI_FXF
@@ -419,7 +419,7 @@ $$PICKUP_STOP_CMT_FILTER=TRUE
 $$SAFETY_AWARD_HIST_FILTER=TRUE
 $$SHIPMENT_ARRIVAL_FILTER=DTL__CAPXACTION<>'D'
 $$SHP_OSD_INCIDENT_FILTER=DTL__CAPXACTION<>'D'
-$$TFMTB052_FILTER=DTL__CAPXACTION<>'D'
+$$TFMTB052_FILTER=TRUE
 $$ZIP_SERVICE_RANGE_FILTER=TRUE
 $AppConnectionSource=CDC_SEFS_O_L2
 $AppConnectionTarget=FDFR_CDC_DW_L2
@@ -427,7 +427,7 @@ $AppConnectionJNDI=JNDI_FXF
 $ParamTargetSchema=DB2FFI
 
 -----------------------------------------------------------------------------------------------------------------------------
-Process End Time : 08/24/2021 15:16:14
+Process End Time : 10/17/2021 11:25:26  
 Updated User  : 3917089
 Total Processed Groups : 13
 -----------------------------------------------------------------------------------------------------------------------------
