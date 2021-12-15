@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------
-Process Start Time : 05/25/2021 14:17:13
+Process Start Time : 05/25/2021 05:11:33
 Updated User  : 3917089
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -396,7 +396,7 @@ $$BRP_FSC_PRVSN_FILTER=TRUE
 $$BRP_FSC_PRVSN_DTL_FILTER=TRUE
 $$BRP_FSC_PRVSN_ORIG_DEST_FILTER=TRUE
 $$BRP_FUEL_COST_INDEX_FILTER=TRUE
-$$BRP_FUEL_COST_INDEX_DTL_FILTER=TRUE
+$$BRP_FUEL_COST_INDEX_DTL_FILTER=FALSE
 $$BRP_GEN_PRC_FILTER=TRUE
 $$BRP_GEN_PRC_CLASS_FILTER=TRUE
 $$BRP_GEN_PRC_DISCNT_FILTER=TRUE
@@ -501,7 +501,7 @@ $$EDI_PARTNER_FILTER=TRUE
 $$GP_CUSTOMER_CODES_FILTER=TRUE
 $$INSTALLATION_USER_FILTER=TRUE
 $$QUE_AUDIT_CAPTURE_FILTER=DTL__CAPXACTION<>'D'
-$$REF_EDIT_ERRORS_FILTER=TRUE
+$$REF_EDIT_ERRORS_FILTER=FALSE
 $$SHIP_RATE_AUDIT_FILTER=DTL__CAPXACTION<>'D'
 $AppConnectionSource=CDC_SEFS_O_L5
 $AppConnectionTarget=FDFR_CDC_DW_L5
@@ -549,13 +549,13 @@ $$SHIPMENT_ARRIVAL_FILTER=DTL__CAPXACTION<>'D'
 $$SHP_OSD_INCIDENT_FILTER=DTL__CAPXACTION<>'D'
 $$TFMTB052_FILTER=DTL__CAPXACTION<>'D'
 $$ZIP_SERVICE_RANGE_FILTER=TRUE
-$AppConnectionSource=CDC_SEFS_O_L5
+$AppConnectionSource=TRUE
 $AppConnectionTarget=FDFR_CDC_DW_L5
 $AppConnectionJNDI=JNDI_FXF
 $ParamTargetSchema=DB2FFE
 
 -----------------------------------------------------------------------------------------------------------------------------
-Process End Time : 05/25/2021 14:17:14
+Process End Time : 05/25/2021 05:11:38
 Updated User  : 3917089
 Total Processed Groups : 13
 -----------------------------------------------------------------------------------------------------------------------------
